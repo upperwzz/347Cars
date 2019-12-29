@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/select.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -30,10 +30,10 @@ $(document).ready(function(e) {
 <body class="sarchbody">
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">ç³»ç»è®¾ç½®</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">系统设置</a></li>
     </ul>
     </div>
     
@@ -46,21 +46,21 @@ $(document).ready(function(e) {
     
     <ul class="seachform1">
     
-    <li><label>é¡¹ç®åç§°</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>å­¦æ ¡åç§°</label>  
+    <li><label>项目名称</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>学校名称</label>  
     <div class="vocation">
     <select class="select3">
-    <option>å¨é¨</option>
-    <option>å¶ä»</option>
+    <option>全部</option>
+    <option>其他</option>
     </select>
     </div>
     </li>
     
-    <li><label>é¡¹ç®ç¶æ</label>  
+    <li><label>项目状态</label>  
     <div class="vocation">
     <select class="select3">
-    <option>å¨é¨</option>
-    <option>å¶ä»</option>
+    <option>全部</option>
+    <option>其他</option>
     </select>
     </div>
     </li>    
@@ -70,37 +70,37 @@ $(document).ready(function(e) {
     
     <ul class="seachform2">
     
-    <li><label>é¡¹ç®ç¼å·</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>é¡¹ç®ç±»å</label>  
+    <li><label>项目编号</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>项目类型</label>  
     <div class="vocation">
     <select class="select3">
-    <option>å¨é¨</option>
-    <option>å¶ä»</option>
+    <option>全部</option>
+    <option>其他</option>
     </select>
     </div>
     </li>
     
-    <li><label>é¡¹ç®é¢å</label>  
+    <li><label>项目领域</label>  
     <div class="vocation">
     <select class="select3">
-    <option>å¨é¨</option>
-    <option>å¶ä»</option>
+    <option>全部</option>
+    <option>其他</option>
     </select>
     </div>
     </li>
     
-    <li><label>ç«é¡¹é¨é¨</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>ç»è´¹èå´</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>ä¸</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>è´è´£äºº</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>ç«é¡¹æ¶é´</label><input name="" type="text" class="scinput1" /></li>
-    <li><label>ä¸</label><input name="" type="text" class="scinput1" /></li>      
+    <li><label>立项部门</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>经费范围</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>一</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>负责人</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>立项时间</label><input name="" type="text" class="scinput1" /></li>
+    <li><label>一</label><input name="" type="text" class="scinput1" /></li>      
 
     
     </ul>
     
     <ul class="seachform1">
-    <li class="sarchbtn"><label>&nbsp;</label><input name="" type="button" class="scbtn" value="æ¥è¯¢"/>   <input name="" type="button" class="scbtn1" value="æ´å¤æ¡ä»¶"/>   <input name="" type="button" class="scbtn2" value="å¯¼åº"/></li>  
+    <li class="sarchbtn"><label>&nbsp;</label><input name="" type="button" class="scbtn" value="查询"/>   <input name="" type="button" class="scbtn1" value="更多条件"/>   <input name="" type="button" class="scbtn2" value="导出"/></li>  
     </ul>
     
     <script language="javascript">
@@ -136,75 +136,75 @@ $(document).ready(function(){
     
     
     
-    <div class="formtitle"><span>é¡¹ç®åè¡¨</span></div>
+    <div class="formtitle"><span>项目列表</span></div>
     
     <table class="tablelist">
     	<thead>
     	<tr>
         <th><input name="" type="checkbox" value="" checked="checked"/></th>
-        <th>ç¼å·<i class="sort"><img src="images/px.gif" /></i></th>
-        <th>æ é¢</th>
-        <th>ç¨æ·</th>
-        <th>ç±è´¯</th>
-        <th>åå¸æ¶é´</th>
-        <th>æ¯å¦å®¡æ ¸</th>
-        <th>æä½</th>
+        <th>编号<i class="sort"><img src="images/px.gif" /></i></th>
+        <th>标题</th>
+        <th>用户</th>
+        <th>籍贯</th>
+        <th>发布时间</th>
+        <th>是否审核</th>
+        <th>操作</th>
         </tr>
         </thead>
         <tbody>
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130908</td>
-        <td>çéå¹³å¹åï¼é©¬è±ä¹å£°æå­å­è§è¡ äººæ´»çæ²¡ææ</td>
+        <td>王金平幕僚：马英九声明字字见血 人活着没意思</td>
         <td>admin</td>
-        <td>æ±èåäº¬</td>
+        <td>江苏南京</td>
         <td>2013-09-09 15:05</td>
-        <td>å·²å®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink"> å é¤</a></td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink"> 删除</a></td>
         </tr> 
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130907</td>
-        <td>æ¸©å·19åå°å­¦çä¸­æ¯æµé¼»è¡ç»­ï¼å¨è¾¹é¨åä¼ä¸å³å</td>
+        <td>温州19名小学生中毒流鼻血续：周边部分企业关停</td>
         <td>uimaker</td>
-        <td>å±±ä¸æµå</td>
+        <td>山东济南</td>
         <td>2013-09-08 14:02</td>
-        <td>æªå®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130906</td>
-        <td>ç¤¾ç§é¢:çµå­åå¡ä¿è¿äºåæç»æµç»æåç¤¾ä¼è½¬å</td>
+        <td>社科院:电子商务促进了农村经济结构和社会转型</td>
         <td>user</td>
-        <td>æ±èæ é¡</td>
+        <td>江苏无锡</td>
         <td>2013-09-07 13:16</td>
-        <td>æªå®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130905</td>
-        <td>æ±è¥¿&quot;å±é¿è¿è§å»ºè±ªå®&quot;ï¼å±é¿æ£è®¨</td>
+        <td>江西&quot;局长违规建豪宅&quot;：局长检讨</td>
         <td>admin</td>
-        <td>åäº¬å¸</td>
+        <td>北京市</td>
         <td>2013-09-06 10:36</td>
-        <td>å·²å®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130907</td>
-        <td>æ¸©å·19åå°å­¦çä¸­æ¯æµé¼»è¡ç»­ï¼å¨è¾¹é¨åä¼ä¸å³å</td>
+        <td>温州19名小学生中毒流鼻血续：周边部分企业关停</td>
         <td>uimaker</td>
-        <td>å±±ä¸æµå</td>
+        <td>山东济南</td>
         <td>2013-09-08 14:02</td>
-        <td>æªå®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
     
         </tbody>

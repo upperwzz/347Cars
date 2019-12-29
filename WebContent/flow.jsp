@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 
@@ -34,26 +34,26 @@ $(document).ready(function(){
 <body>
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">æµç¨å¾</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">流程图</a></li>
     </ul>
     </div>
     
     <div class="rightinfo">
     
    
-   <div class="formtitle1"><span>æµç¨å¾</span></div>
+   <div class="formtitle1"><span>流程图</span></div>
    
    
    <ul class="flow">
-   <li><span><img src="images/lc01.png"  alt="1111" /></span><a href="#">ç«é¡¹ä¿¡æ¯ç»è®°</a><i>(21)</i><div class="flowjt"></div></li>   
-   <li><span><img src="images/lc02.png"  alt="1111" /></span><a href="#">å­¦é¢å®¡æ ¸</a><i>(3)</i><div class="flowjt"></div></li>   
-   <li><span><img src="images/lc03.png"  alt="1111" /></span><a href="#">ç§ç å¤å®¡æ ¸</a><i>(0)</i><div class="flowjt"></div></li>
-   <li><span><img src="images/lc04.png"  alt="1111" /></span><a href="#">è¿ç¨ä¿¡æ¯å¡«æ¥</a><i>(3)</i><div class="flowjt"></div></li>
-   <li><span><img src="images/lc05.png"  alt="1111" /></span><a href="#">éªæ¶ä¿¡æ¯å¡«æ¥</a><i>(2)</i><div class="flowjt"></div></li>
-   <li><span><img src="images/lc06.png"  alt="1111" /></span><a href="#">é¡¹ç®ç»é¡¹</a><i>(1)</i></li>
+   <li><span><img src="images/lc01.png"  alt="1111" /></span><a href="#">立项信息登记</a><i>(21)</i><div class="flowjt"></div></li>   
+   <li><span><img src="images/lc02.png"  alt="1111" /></span><a href="#">学院审核</a><i>(3)</i><div class="flowjt"></div></li>   
+   <li><span><img src="images/lc03.png"  alt="1111" /></span><a href="#">科研处审核</a><i>(0)</i><div class="flowjt"></div></li>
+   <li><span><img src="images/lc04.png"  alt="1111" /></span><a href="#">过程信息填报</a><i>(3)</i><div class="flowjt"></div></li>
+   <li><span><img src="images/lc05.png"  alt="1111" /></span><a href="#">验收信息填报</a><i>(2)</i><div class="flowjt"></div></li>
+   <li><span><img src="images/lc06.png"  alt="1111" /></span><a href="#">项目结项</a><i>(1)</i></li>
    </ul>
     
     

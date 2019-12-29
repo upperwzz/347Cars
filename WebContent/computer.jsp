@@ -1,14 +1,14 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 
 <script language="javascript">
 $(function(){	
-	//å¯¼èªåæ¢
+	//导航切换
 	$(".disklist li").click(function(){
 		$(".disklist li.selected").removeClass("selected")
 		$(this).addClass("selected");
@@ -22,16 +22,16 @@ $(function(){
 <body>
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">æä»¶ç®¡ç</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">文件管理</a></li>
     </ul>
     </div>
     
     <div class="comtitle">
     <span><img src="images/clist.png" /></span>
-    <h2>èµæ(5)</h2>
+    <h2>资料(5)</h2>
     <div class="rline"></div>
     </div>
     
@@ -42,9 +42,9 @@ $(function(){
     <a href="filelist.html">
     <div class="dleft1"></div>    
     <div class="dright">
-    <h2>ä¿¡æ¯ææ¡£(25)</h2>
+    <h2>信息文档(25)</h2>
     <div class="dinfo"><span style="width:100px;"></span></div>
-    <p>34 MB ç©ºé´,å± 253 ä¸ªæä»¶</p>    
+    <p>34 MB 空间,共 253 个文件</p>    
     </div>
     </a>
     </li>
@@ -52,27 +52,27 @@ $(function(){
     <li>
     <div class="dleft"></div>    
     <div class="dright">
-    <h2>å¾ç(30)</h2>
+    <h2>图片(30)</h2>
     <div class="dinfo"><span style="width:50px;"></span></div>
-    <p>120 MB ç©ºé´,å± 5100 ä¸ªæä»¶</p>    
+    <p>120 MB 空间,共 5100 个文件</p>    
     </div>
     </li>
     
     <li>
     <div class="dleft"></div>    
     <div class="dright">
-    <h2>è½¯ä»¶èµæ(43)</h2>
+    <h2>软件资料(43)</h2>
     <div class="dinfo"><span style="width:38px;"></span></div>
-    <p>500 MB ç©ºé´,å± 12 ä¸ªæä»¶</p>    
+    <p>500 MB 空间,共 12 个文件</p>    
     </div>
     </li>
     
     <li>
     <div class="dleft"></div>    
     <div class="dright">
-    <h2>ç³»ç»èµæ(25)</h2>
+    <h2>系统资料(25)</h2>
     <div class="dinfo"><span style="width:60px;"></span></div>
-    <p>125 MB ç©ºé´,å± 3585 ä¸ªæä»¶</p>    
+    <p>125 MB 空间,共 3585 个文件</p>    
     </div>
     </li>
     
@@ -81,16 +81,16 @@ $(function(){
     <div class="dright">
     <h2>uimaker(89)</h2>
     <div class="dinfo"><span style="width:40px;"></span></div>
-    <p>10 MB ç©ºé´,å± 25 ä¸ªæä»¶</p>    
+    <p>10 MB 空间,共 25 个文件</p>    
     </div>
     </li>
     
     <li>
     <div class="dleft"></div>    
     <div class="dright">
-    <h2>å¶ä»(10)</h2>
+    <h2>其他(10)</h2>
     <div class="dinfo"><span style="width:15px;"></span></div>
-    <p>2 MB ç©ºé´,å± 53 ä¸ªæä»¶</p>    
+    <p>2 MB 空间,共 53 个文件</p>    
     </div>
     </li>
     
@@ -101,7 +101,7 @@ $(function(){
     
     <div class="comtitle">
     <span><img src="images/clist.png" /></span>
-    <h2>å¶ä»(1)</h2>
+    <h2>其他(1)</h2>
     <div class="rline"></div>
     </div>
     
@@ -110,8 +110,8 @@ $(function(){
     <li>
     <div class="dleft2"></div>    
     <div class="dright">
-    <h3>ç¸å³ä¿¡æ¯èµæ</h3>
-    <p>æä»¶å¤¹</p>    
+    <h3>相关信息资料</h3>
+    <p>文件夹</p>    
     </div>
     </li>  
     </ul>

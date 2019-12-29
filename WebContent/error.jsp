@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 
@@ -22,18 +22,18 @@
 <body style="background:#FFF8ED;">
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">404éè¯¯æç¤º</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">404错误提示</a></li>
     </ul>
     </div>
     
     <div class="error">
     
-    <h2>éå¸¸éæ¾ï¼æ¨è®¿é®çé¡µé¢ä¸å­å¨ï¼</h2>
-    <p>çå°è¿ä¸ªæç¤ºï¼å°±èªè®¤åéå§!</p>
-    <div class="reindex"><a href="main.html" target="_parent">è¿åé¦é¡µ</a></div>
+    <h2>非常遗憾，您访问的页面不存在！</h2>
+    <p>看到这个提示，就自认倒霉吧!</p>
+    <div class="reindex"><a href="main.html" target="_parent">返回首页</a></div>
     
     </div>
 

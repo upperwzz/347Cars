@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!Doctype html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jsapi.js"></script>
@@ -31,10 +31,10 @@
 <body>
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">å·¥ä½å°</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">工作台</a></li>
     </ul>
     </div>
     
@@ -45,7 +45,7 @@
     
     
     <div class="leftinfo">
-    <div class="listtitle"><a href="#" class="more1">æ´å¤</a>æ°æ®ç»è®¡</div>
+    <div class="listtitle"><a href="#" class="more1">更多</a>数据统计</div>
         
     <div class="maintj">  
     <table id='myTable5'>
@@ -96,31 +96,31 @@
    
     <div class="infoleft">
     
-    <div class="listtitle"><a href="#" class="more1">æ´å¤</a>å¾åäºé¡¹</div>    
+    <div class="listtitle"><a href="#" class="more1">更多</a>待办事项</div>    
     <ul class="newlist">
-    <li><a href="#">ä¸æµ·èªè´¸åºä»æ¥æ­£å¼æçæç«</a><b>10-09</b></li>
-    <li><a href="#">ä¹ è¿å¹³å°è®¿ä¸åäºä¸¤å½ é¦æ¬¡åºå¸­APECå³°ä¼</a><b>10-08</b></li>
-    <li><a href="#">æé«æ³:è°ç§°ç¸å¼¹è´èªç­å¤éèä»éè¿½åè´£</a><b>10-09</b></li>
-    <li><a href="#">ååå¤§é¨é­éé¾é¾å¤© åäº¬å¨åé·éæ±¡æ</a><b>10-06</b></li>
-    <li><a href="#">"ç¯ä¿ä¸å®¶"è£è¯æ°æ¶å«å¯»è¡æ»äºè¢«åæ</a><b>10-05</b></li>
-    <li><a href="#">ä¸­å¤®å·¡è§ç»ï¼éåºå¯¹ä¸ææçç£ä¸å°ä½</a><b>10-04</b></li>
-    <li><a href="#">å§!æé©¬æ²¡æ¹å¥½æåä¸½é©¬è½¦(å¾)</a><b>10-03</b></li>
+    <li><a href="#">上海自贸区今日正式挂牌成立</a><b>10-09</b></li>
+    <li><a href="#">习近平将访东南亚两国 首次出席APEC峰会</a><b>10-08</b></li>
+    <li><a href="#">最高法:谎称炸弹致航班备降者从重追刑责</a><b>10-09</b></li>
+    <li><a href="#">华北大部遭遇雾霾天 北京全城陷重污染</a><b>10-06</b></li>
+    <li><a href="#">"环保专家"董良杰涉嫌寻衅滋事被刑拘</a><b>10-05</b></li>
+    <li><a href="#">中央巡视组：重庆对一把手监督不到位</a><b>10-04</b></li>
+    <li><a href="#">囧!悍马没改好成华丽马车(图)</a><b>10-03</b></li>
     </ul>   
     
     </div>
     
     
     <div class="inforight">
-    <div class="listtitle"><a href="#" class="more1">æ·»å </a>å¸¸ç¨å·¥å·</div>
+    <div class="listtitle"><a href="#" class="more1">添加</a>常用工具</div>
     
     <ul class="tooli">
-    <li><span><img src="images/d01.png" /></span><p><a href="#">ä¿¡æ¯èµæ</a></p></li>
-    <li><span><img src="images/d02.png" /></span><p><a href="#">ç¼è¾</a></p></li>
-    <li><span><img src="images/d03.png" /></span><p><a href="#">è®°äºæ¬</a></p></li>
-    <li><span><img src="images/d04.png" /></span><p><a href="#">ä»»å¡æ¥å</a></p></li>
-    <li><span><img src="images/d05.png" /></span><p><a href="#">å¾çç®¡ç</a></p></li>
-    <li><span><img src="images/d06.png" /></span><p><a href="#">äº¤æ</a></p></li>
-    <li><span><img src="images/d07.png" /></span><p><a href="#">æ¡£æ¡è¢</a></p></li>    
+    <li><span><img src="images/d01.png" /></span><p><a href="#">信息资料</a></p></li>
+    <li><span><img src="images/d02.png" /></span><p><a href="#">编辑</a></p></li>
+    <li><span><img src="images/d03.png" /></span><p><a href="#">记事本</a></p></li>
+    <li><span><img src="images/d04.png" /></span><p><a href="#">任务日历</a></p></li>
+    <li><span><img src="images/d05.png" /></span><p><a href="#">图片管理</a></p></li>
+    <li><span><img src="images/d06.png" /></span><p><a href="#">交易</a></p></li>
+    <li><span><img src="images/d07.png" /></span><p><a href="#">档案袋</a></p></li>    
     </ul>
     
     </div>
@@ -137,29 +137,29 @@
     
     
     <div class="dflist">
-    <div class="listtitle"><a href="#" class="more1">æ´å¤</a>ææ°ä¿¡æ¯</div>    
+    <div class="listtitle"><a href="#" class="more1">更多</a>最新信息</div>    
     <ul class="newlist">
-    <li><a href="#">ä¸æµ·èªè´¸åºä»æ¥æ­£å¼æçæç«</a></li>
-    <li><a href="#">ä¹ è¿å¹³å°è®¿ä¸åäºä¸¤å½ é¦æ¬¡åºå¸­APECå³°ä¼</a></li>
-    <li><a href="#">æé«æ³:è°ç§°ç¸å¼¹è´èªç­å¤éèä»éè¿½åè´£</a></li>
-    <li><a href="#">ååå¤§é¨é­éé¾é¾å¤© åäº¬å¨åé·éæ±¡æ</a></li>
-    <li><a href="#">"ç¯ä¿ä¸å®¶"è£è¯æ°æ¶å«å¯»è¡æ»äºè¢«åæ</a></li>
-    <li><a href="#">ä¸­å¤®å·¡è§ç»ï¼éåºå¯¹ä¸ææçç£ä¸å°ä½</a></li>
-    <li><a href="#">å§!æé©¬æ²¡æ¹å¥½æåä¸½é©¬è½¦(å¾)</a></li>
-    <li><a href="#">æ¾³é¨é»éå¨å æ´¾ç¨½æ¥äººåçå¯åºç§è½¦è¿è§è¡ä¸º</a></li>
-    <li><a href="#">é¦æ¸¯ç¯å¢å±é¿åæ°ä¼æ¯ææ¿åºæ©å»ºå å¡«åº</a></li> 
+    <li><a href="#">上海自贸区今日正式挂牌成立</a></li>
+    <li><a href="#">习近平将访东南亚两国 首次出席APEC峰会</a></li>
+    <li><a href="#">最高法:谎称炸弹致航班备降者从重追刑责</a></li>
+    <li><a href="#">华北大部遭遇雾霾天 北京全城陷重污染</a></li>
+    <li><a href="#">"环保专家"董良杰涉嫌寻衅滋事被刑拘</a></li>
+    <li><a href="#">中央巡视组：重庆对一把手监督不到位</a></li>
+    <li><a href="#">囧!悍马没改好成华丽马车(图)</a></li>
+    <li><a href="#">澳门黄金周加派稽查人员监察出租车违规行为</a></li>
+    <li><a href="#">香港环境局长吁民众支持政府扩建堆填区</a></li> 
     </ul>        
     </div>
     
     
     <div class="dflist1">
-    <div class="listtitle"><a href="#" class="more1">æ´å¤</a>ä¿¡æ¯ç»è®¡</div>    
+    <div class="listtitle"><a href="#" class="more1">更多</a>信息统计</div>    
     <ul class="newlist">
-    <li><i>ä¼åæ°ï¼</a></i>2535462</li>
-    <li><i>ææ¡£æ°ï¼</a></i>5546</li>
-    <li><i>æ®éæç« ï¼</a></i>2315</li>
-    <li><i>è½¯ä»¶ï¼</a></i>1585</li>
-    <li><i>è¯è®ºæ°ï¼</a></i>5342</li>    
+    <li><i>会员数：</a></i>2535462</li>
+    <li><i>文档数：</a></i>5546</li>
+    <li><i>普通文章：</a></i>2315</li>
+    <li><i>软件：</a></i>1585</li>
+    <li><i>评论数：</a></i>5342</li>    
     </ul>        
     </div>
     

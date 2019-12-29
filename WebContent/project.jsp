@@ -1,8 +1,8 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 
@@ -34,10 +34,10 @@ $(document).ready(function(){
 <body>
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">é¡¹ç®ç³æ¥</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">项目申报</a></li>
     </ul>
     </div>
     
@@ -45,91 +45,91 @@ $(document).ready(function(){
     
    
    <ul class="project">
-   <div class="proleft">ç«é¡¹æ­¥éª¤</div>
-   <li class="profinish prover "><span>&nbsp;</span><b>1</b>é¡¹ç®ä¿¡æ¯<i>&nbsp;</i></li>
-   <li class="profinish "><span>&nbsp;</span><b>2</b>è¯¾é¢æå<i>&nbsp;</i></li>
-   <li class="start"><span>&nbsp;</span><b>3</b>ç»è´¹è´¦æ·<i>&nbsp;</i></li>
-   <li><span>&nbsp;</span><b>4</b>ç»è´¹é¢ç®<i>&nbsp;</i></li>
-   <li><span>&nbsp;</span><b>5</b>ä¸ä¼ éä»¶<i>&nbsp;</i></li>
-   <li><span>&nbsp;</span><b>6</b>ä¿å­æäº¤<i>&nbsp;</i></li>
+   <div class="proleft">立项步骤</div>
+   <li class="profinish prover "><span>&nbsp;</span><b>1</b>项目信息<i>&nbsp;</i></li>
+   <li class="profinish "><span>&nbsp;</span><b>2</b>课题成员<i>&nbsp;</i></li>
+   <li class="start"><span>&nbsp;</span><b>3</b>经费账户<i>&nbsp;</i></li>
+   <li><span>&nbsp;</span><b>4</b>经费预算<i>&nbsp;</i></li>
+   <li><span>&nbsp;</span><b>5</b>上传附件<i>&nbsp;</i></li>
+   <li><span>&nbsp;</span><b>6</b>保存提交<i>&nbsp;</i></li>
    </ul>
    
    
    <ul class="prosearch">
-   <li><label>é¡¹ç®ç¶æï¼</label><input name="" type="radio" value="" checked="checked" />&nbsp;å¾å¤ç&nbsp;&nbsp;<input name="" type="radio" value="" />&nbsp;å¾å®¡&nbsp;&nbsp;<input name="" type="radio" value="" />&nbsp;å¨é¨</li>
-   <li><label>æ¥è¯¢ï¼</label><i>é¡¹ç®åç§°</i><a><input name="" type="text" class="scinput" /></a><i>é¡¹ç®ç¼å·</i><a><input name="" type="text" class="scinput" /></a><a><input name="" type="button" class="sure" value="æ¥è¯¢"/></a></li>
+   <li><label>项目状态：</label><input name="" type="radio" value="" checked="checked" />&nbsp;待处理&nbsp;&nbsp;<input name="" type="radio" value="" />&nbsp;待审&nbsp;&nbsp;<input name="" type="radio" value="" />&nbsp;全部</li>
+   <li><label>查询：</label><i>项目名称</i><a><input name="" type="text" class="scinput" /></a><i>项目编号</i><a><input name="" type="text" class="scinput" /></a><a><input name="" type="button" class="sure" value="查询"/></a></li>
    
    </ul>
    
-   <div class="formtitle1"><span>ç«é¡¹é¡¹ç®</span></div>
+   <div class="formtitle1"><span>立项项目</span></div>
    
     <table class="tablelist">
     	<thead>
     	<tr>
         <th><input name="" type="checkbox" value="" checked="checked"/></th>
-        <th>ç¼å·<i class="sort"><img src="images/px.gif" /></i></th>
-        <th>æ é¢</th>
-        <th>ç¨æ·</th>
-        <th>ç±è´¯</th>
-        <th>åå¸æ¶é´</th>
-        <th>æ¯å¦å®¡æ ¸</th>
-        <th>æä½</th>
+        <th>编号<i class="sort"><img src="images/px.gif" /></i></th>
+        <th>标题</th>
+        <th>用户</th>
+        <th>籍贯</th>
+        <th>发布时间</th>
+        <th>是否审核</th>
+        <th>操作</th>
         </tr>
         </thead>
         <tbody>
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130908</td>
-        <td>çéå¹³å¹åï¼é©¬è±ä¹å£°æå­å­è§è¡ äººæ´»çæ²¡ææ</td>
+        <td>王金平幕僚：马英九声明字字见血 人活着没意思</td>
         <td>admin</td>
-        <td>æ±èåäº¬</td>
+        <td>江苏南京</td>
         <td>2013-09-09 15:05</td>
-        <td>å·²å®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink"> å é¤</a></td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink"> 删除</a></td>
         </tr> 
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130907</td>
-        <td>æ¸©å·19åå°å­¦çä¸­æ¯æµé¼»è¡ç»­ï¼å¨è¾¹é¨åä¼ä¸å³å</td>
+        <td>温州19名小学生中毒流鼻血续：周边部分企业关停</td>
         <td>uimaker</td>
-        <td>å±±ä¸æµå</td>
+        <td>山东济南</td>
         <td>2013-09-08 14:02</td>
-        <td>æªå®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130906</td>
-        <td>ç¤¾ç§é¢:çµå­åå¡ä¿è¿äºåæç»æµç»æåç¤¾ä¼è½¬å</td>
+        <td>社科院:电子商务促进了农村经济结构和社会转型</td>
         <td>user</td>
-        <td>æ±èæ é¡</td>
+        <td>江苏无锡</td>
         <td>2013-09-07 13:16</td>
-        <td>æªå®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>未审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130905</td>
-        <td>æ±è¥¿&quot;å±é¿è¿è§å»ºè±ªå®&quot;ï¼å±é¿æ£è®¨</td>
+        <td>江西&quot;局长违规建豪宅&quot;：局长检讨</td>
         <td>admin</td>
-        <td>åäº¬å¸</td>
+        <td>北京市</td>
         <td>2013-09-06 10:36</td>
-        <td>å·²å®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>
         
         <tr>
         <td><input name="" type="checkbox" value="" /></td>
         <td>20130904</td>
-        <td>ä¸­å½2020å¹´æè¿å¥é«æ¶å¥å½å®¶è¡å</td>
+        <td>中国2020年或迈入高收入国家行列</td>
         <td>uimaker</td>
-        <td>æ±èåäº¬</td>
+        <td>江苏南京</td>
         <td>2013-09-05 13:25</td>
-        <td>å·²å®¡æ ¸</td>
-        <td><a href="#" class="tablelink">æ¥ç</a>     <a href="#" class="tablelink">å é¤</a></td>
+        <td>已审核</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink">删除</a></td>
         </tr>        
        
         </tbody>
@@ -137,7 +137,7 @@ $(document).ready(function(){
     
    
     <div class="pagin">
-    	<div class="message">å±<i class="blue">1256</i>æ¡è®°å½ï¼å½åæ¾ç¤ºç¬¬&nbsp;<i class="blue">2&nbsp;</i>é¡µ</div>
+    	<div class="message">共<i class="blue">1256</i>条记录，当前显示第&nbsp;<i class="blue">2&nbsp;</i>页</div>
         <ul class="paginList">
         <li class="paginItem"><a href="javascript:;"><span class="pagepre"></span></a></li>
         <li class="paginItem"><a href="javascript:;">1</a></li>
@@ -153,19 +153,19 @@ $(document).ready(function(){
     
     
     <div class="tip">
-    	<div class="tiptop"><span>æç¤ºä¿¡æ¯</span><a></a></div>
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
         
       <div class="tipinfo">
         <span><img src="images/ticon.png" /></span>
         <div class="tipright">
-        <p>æ¯å¦ç¡®è®¤å¯¹ä¿¡æ¯çä¿®æ¹ ï¼</p>
-        <cite>å¦ææ¯è¯·ç¹å»ç¡®å®æé® ï¼å¦åè¯·ç¹åæ¶ã</cite>
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
         </div>
         </div>
         
         <div class="tipbtn">
-        <input name="" type="button"  class="sure" value="ç¡®å®" />&nbsp;
-        <input name="" type="button"  class="cancel" value="åæ¶" />
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
         </div>
     
     </div>

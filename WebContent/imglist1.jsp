@@ -1,13 +1,13 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%> <!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ æ é¢ææ¡£</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script language="javascript">
 $(function(){	
-	//å¯¼èªåæ¢
+	//导航切换
 	$(".imglist li").click(function(){
 		$(".imglist li.selected").removeClass("selected")
 		$(this).addClass("selected");
@@ -20,11 +20,11 @@ $(function(){
 <body>
 
 	<div class="place">
-    <span>ä½ç½®ï¼</span>
+    <span>位置：</span>
     <ul class="placeul">
-    <li><a href="#">é¦é¡µ</a></li>
-    <li><a href="#">æ¨¡åè®¾è®¡</a></li>
-    <li><a href="#">å¾ç</a></li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">模块设计</a></li>
+    <li><a href="#">图片</a></li>
     </ul>
     </div>
     
@@ -33,15 +33,15 @@ $(function(){
     <div class="tools">
     
     	<ul class="toolbar">
-        <li class="click"><span><img src="images/t01.png" /></span>æ·»å </li>
-        <li class="click"><span><img src="images/t02.png" /></span>ä¿®æ¹</li>
-        <li><span><img src="images/t03.png" /></span>å é¤</li>
-        <li><span><img src="images/t04.png" /></span>ç»è®¡</li>
+        <li class="click"><span><img src="images/t01.png" /></span>添加</li>
+        <li class="click"><span><img src="images/t02.png" /></span>修改</li>
+        <li><span><img src="images/t03.png" /></span>删除</li>
+        <li><span><img src="images/t04.png" /></span>统计</li>
         </ul>
         
         
         <ul class="toolbar1">
-        <li><span><img src="images/t05.png" /></span>è®¾ç½®</li>
+        <li><span><img src="images/t05.png" /></span>设置</li>
         </ul>
     
     </div>
@@ -53,72 +53,72 @@ $(function(){
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
     <li>
     <span><img src="images/001.jpg" /></span>
     <div class="lright">
-    <h2>æ¨¡æçµå­ææ¯</h2>
-    <p>è¯¾ç¨æ°ï¼å±35ç« <br />å·²å®æï¼7ç« <br />å­¦ä¹ ä¸­ï¼6ç« </p>
-    <a class="enter">è¿å¥è¯¾ç¨</a>
+    <h2>模拟电子技术</h2>
+    <p>课程数：共35章<br />已完成：7章<br />学习中：6章</p>
+    <a class="enter">进入课程</a>
     </div>
     </li>
     
@@ -127,7 +127,7 @@ $(function(){
     <div class="clear"></div>
    
     <div class="pagin">
-    	<div class="message">å±<i class="blue">1256</i>æ¡è®°å½ï¼å½åæ¾ç¤ºç¬¬&nbsp;<i class="blue">2&nbsp;</i>é¡µ</div>
+    	<div class="message">共<i class="blue">1256</i>条记录，当前显示第&nbsp;<i class="blue">2&nbsp;</i>页</div>
         <ul class="paginList">
         <li class="paginItem"><a href="javascript:;"><span class="pagepre"></span></a></li>
         <li class="paginItem"><a href="javascript:;">1</a></li>
@@ -143,19 +143,19 @@ $(function(){
     
     
     <div class="tip">
-    	<div class="tiptop"><span>æç¤ºä¿¡æ¯</span><a></a></div>
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
         
       <div class="tipinfo">
         <span><img src="images/ticon.png" /></span>
         <div class="tipright">
-        <p>æ¯å¦ç¡®è®¤å¯¹ä¿¡æ¯çä¿®æ¹ ï¼</p>
-        <cite>å¦ææ¯è¯·ç¹å»ç¡®å®æé® ï¼å¦åè¯·ç¹åæ¶ã</cite>
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
         </div>
         </div>
         
         <div class="tipbtn">
-        <input name="" type="button"  class="sure" value="ç¡®å®" />&nbsp;
-        <input name="" type="button"  class="cancel" value="åæ¶" />
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
         </div>
     
     </div>

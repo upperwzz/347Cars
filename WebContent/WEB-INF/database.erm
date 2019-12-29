@@ -23,7 +23,7 @@
 		<g>255</g>
 		<b>255</b>
 	</color>
-	<font_name></font_name>
+	<font_name>微软雅黑</font_name>
 	<font_size>9</font_size>
 	<settings>
 		<database>MySQL</database>
@@ -87,15 +87,20 @@
 			<id></id>
 			<height>-1</height>
 			<width>-1</width>
-				<font_name></font_name>
+				<font_name>微软雅黑</font_name>
 				<font_size>9</font_size>
 			<x>50</x>
 			<y>50</y>
+			<color>
+				<r>255</r>
+				<g>255</g>
+				<b>255</b>
+			</color>
 			<connections>
 			</connections>
 			<display>false</display>
 			<creation_date>2019-12-29 08:58:59</creation_date>
-			<updated_date>2019-12-29 08:58:59</updated_date>
+			<updated_date>2019-12-29 10:58:59</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value></value>
@@ -123,6 +128,10 @@
 			<storage_engine></storage_engine>
 		</table_properties>
 		<environment_setting>
+			<environment>
+				<id>0</id>
+				<name>Default</name>
+			</environment>
 		</environment_setting>
 	</settings>
 	<dictionary>
@@ -130,6 +139,38 @@
 	<tablespace_set>
 	</tablespace_set>
 	<contents>
+		<table>
+			<id>0</id>
+			<height>75</height>
+			<width>120</width>
+				<font_name>微软雅黑</font_name>
+				<font_size>9</font_size>
+			<x>355</x>
+			<y>203</y>
+			<color>
+				<r>128</r>
+				<g>128</g>
+				<b>192</b>
+			</color>
+			<connections>
+			</connections>
+			<physical_name>NEW_TABLE</physical_name>
+			<logical_name>NEW_TABLE</logical_name>
+			<description></description>
+			<constraint></constraint>
+			<primary_key_name></primary_key_name>
+			<columns>
+			</columns>
+			<indexes>
+			</indexes>
+			<complex_unique_key_list>
+			</complex_unique_key_list>
+			<table_properties>
+				<character_set></character_set>
+				<schema></schema>
+				<storage_engine></storage_engine>
+			</table_properties>
+		</table>
 	</contents>
 	<column_groups>
 	</column_groups>
