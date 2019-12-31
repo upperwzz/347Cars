@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -89,6 +90,140 @@ $(document).ready(function(){
     <td>admin</td>
     <td>已审核</td>
     <td>128</td>
+=======
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript">
+$(function(){	
+	//导航切换
+	$(".imglist li").click(function(){
+		$(".imglist li.selected").removeClass("selected")
+		$(this).addClass("selected");
+	})	
+})	
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".click").click(function(){
+  $(".tip").fadeIn(200);
+  });
+  
+  $(".tiptop a").click(function(){
+  $(".tip").fadeOut(200);
+});
+
+  $(".sure").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+  $(".cancel").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+});
+</script>
+</head>
+
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">图片列表</a></li>
+    </ul>
+    </div>
+    
+    <div class="rightinfo">
+    
+    <div class="tools">
+    
+    	<ul class="toolbar">
+        <li class="click"><span><img src="images/t01.png" /></span>添加</li>
+        <li class="click"><span><img src="images/t02.png" /></span>修改</li>
+        <li><span><img src="images/t03.png" /></span>删除</li>
+        <li><span><img src="images/t04.png" /></span>统计</li>
+        </ul>
+        
+        
+        <ul class="toolbar1">
+        <li><span><img src="images/t05.png" /></span>设置</li>
+        </ul>
+    
+    </div>
+    
+    
+    <table class="imgtable">
+    
+    <thead>
+    <tr>
+    <th width="100px;">缩略图</th>
+    <th>标题</th>
+    <th>栏目</th>
+    <th>权限</th>
+    <th>发布人</th>
+    <th>是否审核</th>
+    <th>点击</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    
+    <tr>
+    <td class="imgtd"><img src="images/img11.png" /></td>
+    <td><a href="#">非常不错的国外后台模板，支持HTML5</a><p>发布时间：2013-10-12 09:25:18</p></td>
+    <td>后台界面<p>ID: 82122</p></td>
+    <td>开放浏览</td>
+    <td>admin</td>
+    <td>已审核</td>
+    <td>128</td>
+    </tr>
+    
+    <tr>
+    <td class="imgtd"><img src="images/img12.png" /></td>
+    <td><a href="#">一套简约形状图标UI下载</a><p>发布时间：2013-10-12 09:25:18</p></td>
+    <td>图标设计<p>ID: 82122</p></td>
+    <td>开放浏览</td>
+    <td>uimaker</td>
+    <td><i>未审核</i></td>
+    <td>235</td>
+    </tr>
+    
+    <tr>
+    <td class="imgtd"><img src="images/img13.png" /></td>
+    <td><a href="#">配色软件界面设计PSD下载</a><p>发布时间：2013-10-12 09:25:18</p></td>
+    <td>软件界面<p>ID: 82122</p></td>
+    <td>开放浏览</td>
+    <td>admin</td>
+    <td>已审核</td>
+    <td>100</td>
+    </tr>
+    
+    <tr>
+    <td class="imgtd"><img src="images/img14.png" /></td>
+    <td><a href="#">uimaker.com分享-123张switch界面UI设计</a><p>发布时间：2013-10-12 09:25:18</p></td>
+    <td>图标设计<p>ID: 82122</p></td>
+    <td>开放浏览</td>
+    <td>user</td>
+    <td>已审核</td>
+    <td>96</td>
+    </tr>
+    
+    <tr>
+    <td class="imgtd"><img src="images/img15.png" /></td>
+    <td><a href="#">章鱼图标PSD源文件下载</a><p>发布时间：2013-10-12 09:25:18</p></td>
+    <td>界面设计<p>ID: 82122</p></td>
+    <td>开放浏览</td>
+    <td>admin</td>
+    <td>已审核</td>
+    <td>45</td>
+>>>>>>> branch 'master' of https://github.com/upperwzz/347Cars.git
     </tr>
     
     </tbody>

@@ -1,5 +1,6 @@
 package com.mysql.cars.model;
 
+<<<<<<< HEAD
 /**
  * 这是售后服务模块dao类（里面只能定义跟售后服务数据库操作相关的方法）
  * @author Administrator
@@ -121,3 +122,8 @@ public class ServiceDAO {
 	}
 
 }
+=======
+public class ServiceDAO {
+
+}
+>>>>>>> branch 'master' of https://github.com/upperwzz/347Cars.git
